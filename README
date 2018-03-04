@@ -1,0 +1,18 @@
+#####################################################################
+############# RESUME TEMPLATE
+############# v0.01 -- 3 March 2018
+#####################################################################
+#-------- Author: wj107
+#-------- Email: will.johnson@gmail.com
+#-------- Adapted from `Modern CV' template from Xavier Danaux (xdanaux@gmail.com)
+#---------------------------------
+#----------- Resume template!
+#----------- Put your info in the subfiles, then compile resume2.tex
+#---------------------------------
+
+#---------------v0.01 has:
+#-----------Modularized resume template
+#---------------v0.01+ needs:
+#-----------Cover letter
+#-----------Picture
+#-----------Start to tweak style, make it your own!
