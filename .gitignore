@@ -6,3 +6,8 @@
 *.aux
 *.log
 *.out
+
+
+########dvi files
+*.dvi
+

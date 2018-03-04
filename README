@@ -1,18 +1,19 @@
 #####################################################################
 ############# RESUME TEMPLATE
-############# v0.01 -- 3 March 2018
+############# v0.02 -- 4 March 2018
 #####################################################################
 #-------- Author: wj107
 #-------- Email: will.johnson@gmail.com
 #-------- Adapted from `Modern CV' template from Xavier Danaux (xdanaux@gmail.com)
 #---------------------------------
 #----------- Resume template!
-#----------- Put your info in the subfiles, then compile resume2.tex
+#----------- Create a subfolder with specific resume info, then point resume2.tex to that subfolder & compile
 #---------------------------------
 
-#---------------v0.01 has:
+#---------------v0.02 has:
 #-----------Modularized resume template
-#---------------v0.01+ needs:
+#-----------Command to choose subfolder w/specific resume info
+#---------------v0.02+ needs:
 #-----------Cover letter
 #-----------Picture
 #-----------Start to tweak style, make it your own!

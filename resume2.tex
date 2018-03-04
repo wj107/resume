@@ -1,13 +1,16 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%% Adapted by template for Modern CV, copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-%---------------------------------------------------------------
-%------------------ RESUME TEMPLATE
-%---------------------------------------------------------------
+%-----------------------------------------------------------------------
+%---------- ADJUSTABLE RESUME TEMPLATE
+%---------- Input subfolder of /positions with resume information
+%-----------------------------------------------------------------------
+
+%Which resume do you want?  Make sure it is a subdirectoy of /positions
+	\newcommand{\position}{position1}	%change between position1, position2...
 
 %--------------------------------
 %------------PREAMBLE
@@ -43,7 +46,7 @@
 
 %------------Who I am!!
 
-	\input{./me}
+	\input{./positions/\position/me}
 
 %-----------------------------------------------------
 %------------BODY
@@ -56,18 +59,18 @@
 
 %-------------Sec 1 Teaching Experience
 	\section{Teaching Experience.}
-	\input{./teaching}
+	\input{./positions/\position/teaching}
 
 %-------------Sec 2 Education
 	\section{Education}
-	\input{./education}
+	\input{./positions/\position/education}
 
 %-------------Sec 3 Skills
 	\section{Skills}
-	\input{./skills}
+	\input{./positions/\position/skills}
 
 %-------------Sec 4 References
 	\section{References}
-	\input{./references}
+	\input{./positions/\position/references}
 
 \end{document}
