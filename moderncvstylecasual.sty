@@ -182,6 +182,24 @@
     {\color{color2}\itshape\enclname: \@enclosure}}%
     \vfil}
 
+\newcommand*{\statementclosing}{
+  \vskip .1in%
+  {\bfseries\@firstname~\@lastname\\}%
+%----edit!!!
+	{\@date\\}
+	{\color{color2}\itshape
+	{\@addressstreet\\}
+	{\@addresscity\\}
+	{\@phone\\}
+	{\@email}
+	}
+%----
+  \ifthenelse{\isundefined{\@enclosure}}{}{%
+    \\%
+    \vfil%
+    {\color{color2}\itshape\enclname: \@enclosure}}%
+    \vfil}
+
 
 \endinput
 
