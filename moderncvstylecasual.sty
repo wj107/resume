@@ -167,7 +167,15 @@
 
 \renewcommand*{\makeletterclosing}{
   \@closing\\[3em]%
-  {\bfseries\@firstname~\@lastname}%
+  {\bfseries\@firstname~\@lastname\\}%
+%----edit!!!
+	{\color{color2}\itshape
+	{\@addressstreet\\}
+	{\@addresscity\\}
+	{\@phone\\}
+	{\@email}
+	}
+%----
   \ifthenelse{\isundefined{\@enclosure}}{}{%
     \\%
     \vfil%

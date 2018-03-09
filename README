@@ -1,6 +1,6 @@
 #####################################################################
 ############# RESUME TEMPLATE
-############# v0.02 -- 4 March 2018
+############# v0.03 -- 9 March 2018
 #####################################################################
 #-------- Author: wj107
 #-------- Email: will.johnson@gmail.com
@@ -8,12 +8,14 @@
 #---------------------------------
 #----------- Resume template!
 #----------- Create a subfolder with specific resume info, then point resume2.tex to that subfolder & compile
+#----------- Or cvrltr.tex for your cover letter...
 #---------------------------------
 
-#---------------v0.02 has:
-#-----------Modularized resume template
+#---------------v0.03 has:
+#-----------Modularized resume & cover letter template
 #-----------Command to choose subfolder w/specific resume info
-#---------------v0.02+ needs:
+#---------------v0.03+ needs:
 #-----------Cover letter
 #-----------Picture
+#-----------How to change date more easily?? command line typesetting?
 #-----------Start to tweak style, make it your own!
